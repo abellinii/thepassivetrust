@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/thepassivetrust/precache-manifest.c8c3bad9efa3ac59c3cc78ed34a812c7.js"
+  "/thepassivetrust/precache-manifest.d6ca5d4204698f0d843f34598fb2a474.js"
 );
 
 self.addEventListener('message', (event) => {
