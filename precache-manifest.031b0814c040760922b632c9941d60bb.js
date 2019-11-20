@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e1c57ca625b33f499ec4977af3ef2e6d",
+    "revision": "56ff3d78a4cdaca86cabce8431f10b13",
     "url": "./index.html"
   },
   {
-    "revision": "c94b03aabdd484700bc8",
+    "revision": "604da79d8808724c4076",
     "url": "./static/css/main.da005ed0.chunk.css"
   },
   {
-    "revision": "d90cf8419bfb50ce2c97",
-    "url": "./static/js/2.90021130.chunk.js"
+    "revision": "72bba8b1e24f572aa47c",
+    "url": "./static/js/2.8793af12.chunk.js"
   },
   {
-    "revision": "c94b03aabdd484700bc8",
-    "url": "./static/js/main.befe0416.chunk.js"
+    "revision": "604da79d8808724c4076",
+    "url": "./static/js/main.41bca055.chunk.js"
   },
   {
     "revision": "feaf32e931506ccf4dee",
     "url": "./static/js/runtime~main.a12c56f5.js"
+  },
+  {
+    "revision": "c0069b76c30d50e307389d2b165354c9",
+    "url": "./static/media/Aion Currency Symbol Transparent PNG.c0069b76.png"
   },
   {
     "revision": "f1d71f777331fd7e3de116edf4ee3b67",
