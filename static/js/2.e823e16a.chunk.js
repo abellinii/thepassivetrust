@@ -8,7 +8,38 @@
 * Copyright 2019 The Passive Trust (http://www.stakeaion.com)
 
                                       
+                                                               
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                    
+ AA                                  AA                    
+ AA                                  AA                    
+ AA                                  AA                    
+ AA                                  AA                    
+ AA                                  AA                  
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                   
+ AA                                  AA                   
+ AA                                  AA                    
+ @@                            AAAAAAAAAAAAAAA                
+ AA                        AAAAAAA           AAAAA          
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                AAA       
+ @,                     AAAA                      AAA.      
+ @*                   AAAA                          AA.     
+ @/                  AAAA           @@@@@            AA.   
+ @#                 AAA            %@@@@@*            AA.  
+ AAAAAAAAAAAAAAAAAAAA             ,@@@*@@@             AA.  
+.AA                AAA            @@@( &@@&            AAA 
+ AA                AAA           &@@@   @@@*           AAA 
+ AA                AAA          ,@@@     @@@,          AAA 
+ AA                 AAA        .@@@  *%.  @@@          AA  
+ AAAAAAAAAAAAAAAAAAAAAA        @@@# ,@@@, @@@%        AA.  
+ AA                  AAA                             AA.   
+ AA                   AAA                          AAA    
+ AA                     AAA                      AAA     
+ AA                       AAA                  AAAA       
+ AA                  ..,   AAAAAAAAAAAAAAAAAAAAAA          
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA       
+ 
 
+=========================================================
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
