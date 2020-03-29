@@ -70,6 +70,14 @@ const signupPageStyle = {
     padding: "20px 0",
     marginBottom: "15px"
   },
+  hr :{ 
+  display: "block",
+  marginTop: "0.5em",
+  marginLeft: "auto",
+  marginRight: "auto",
+  borderStyle: "inset",
+  borderWidth: "1px"
+},
   socialIcons: {
     maxWidth: "24px",
     marginTop: "0",

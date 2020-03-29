@@ -96,12 +96,12 @@ legend {
 }
 
 a {
-  color: $link-color;
+  color:#F54119;
   text-decoration: none;
   background-color: transparent;
   &:hover,
   &:focus {
-    color: darken($link-color, 5%);
+    color: darken(#F54119, 5%);
     text-decoration: none;
   }
 }

@@ -37,9 +37,9 @@ item: {
 },
   description: {
     margin: "1.071rem auto 0",
-    maxWidth: "600px",
     color: "#999",
-    textAlign: "center !important"
+    textAlign: "center !important",
+    paddingBottom:"10%"
   },
   name: {
     marginTop: "-80px"

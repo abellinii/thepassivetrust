@@ -7,9 +7,9 @@ import PropTypes from "prop-types";
 import { makeStyles } from "@material-ui/core/styles";
 
 // core components
-import styles from "assets/jss/material-kit-react/components/parallaxStyle.js";
-
-const useStyles = makeStyles(styles);
+import styles1 from "assets/jss/material-kit-react/components/parallaxStyle.js";
+import styles2 from "assets/jss/material-kit-react/components/parallaxStyle2.js";
+ 
 
 export default function Parallax(props) {
   let windowScrollTop;
@@ -35,7 +35,10 @@ export default function Parallax(props) {
     var windowScrollTop = window.pageYOffset / 3;
     setTransform("translate3d(0," + windowScrollTop + "px,0)");
   };
-  const { filter, className, children, style, image, small } = props;
+  const { filter, className, children, style, image, small, checkPage} = props;
+
+ 
+ const useStyles =checkPage ? makeStyles(styles1) : makeStyles(styles2);
   const classes = useStyles();
   const parallaxClasses = classNames({
     [classes.parallax]: true,
@@ -44,7 +47,8 @@ export default function Parallax(props) {
     [className]: className !== undefined
   });
   return (
-    <div
+    <div>
+    { image ? <div
       className={parallaxClasses}
       style={{
         ...style,
@@ -53,6 +57,17 @@ export default function Parallax(props) {
       }}
     >
       {children}
+    </div> :
+    <div
+      className={parallaxClasses}
+      style={{
+        ...style,
+        backgroundColor: "#FFB900",
+        transform: transform
+      }}
+    >
+      {children}
+    </div> }
     </div>
   );
 }

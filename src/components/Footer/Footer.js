@@ -35,16 +35,14 @@ export default function Footer(props) {
               <a
                 href="http://www.stakeaion.com"
                 className={classes.block}
-                target="_blank"
               >
                 The Passive Trust
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/presentation?ref=mkr-footer"
+                href="http://www.stakeaion.com/about"
                 className={classes.block}
-                target="_blank"
               >
                 About us
               </a>
@@ -53,7 +51,6 @@ export default function Footer(props) {
               <a
                 href="https://medium.com/@thelostlinkblog"
                 className={classes.block}
-                target="_blank"
               >
                 Blog
               </a>
@@ -64,7 +61,7 @@ export default function Footer(props) {
           &copy; {1900 + new Date().getYear()} , made with{" "}
           <Favorite className={classes.icon} /> by{" "}
           <a
-            href="https://www.creative-tim.com?ref=mkr-footer"
+            href="https://www.stakeaion.com"
             className={aClasses}
             target="_blank"
           >

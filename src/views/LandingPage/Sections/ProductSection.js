@@ -21,9 +21,10 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>For the Community, by the Community</h2>
+          <h2 className={classes.title}>Providing solutions to enable the collective goal of worldwide prosperity</h2>
           <h5 className={classes.description}>
-          Running and taking care of a node is a lot of work. We want to provide a low cost solution to members of the community. The small fee will facilitate the cost of the infracstructure and upkeep of the node. We will provide this service exclusively to The Open Application Network. Having been involvedin the Aion community since inception we feel the network provides great value to the blockchain industry.
+          Running and taking care of the infrastructure needed to create a fair and decentralized future takes time, commitment and hard work. We provide an efficient, low-cost solution for others who don't have the time but still want to contribute. 
+          We have a range of expertise to help keep blockchains decentralized and utilize cloud computing to help with lightweight, efficient, secure infrastructure.
           
           </h5>
         </GridItem>
@@ -33,7 +34,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Talk to us"
-              description="We have a slack channel that is for any member delegating to the pool or anyone interested in contributing "
+              description="We are always open to hear from others with any questions, needs or opinions "
               icon={Chat}
               iconColor="info"
               vertical
@@ -42,7 +43,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Community members"
-              description="Open to anyone passionate about a decentralized future and The Open Application Network"
+              description="Work with us to provide unique solutions"
               icon={VerifiedUser}
               iconColor="success"
               vertical
@@ -50,8 +51,8 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Infracstrucure and Security"
-              description="We provide a service using the best cloud infrastructure with a focus on security"
+              title="Infrastructure and Security"
+              description="We provide world class secure cloud infrastructure that is regularly audited"
               icon={Fingerprint}
               iconColor="danger"
               vertical

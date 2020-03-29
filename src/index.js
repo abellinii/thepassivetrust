@@ -4,30 +4,40 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { createBrowserHistory } from "history";
-import { Router, Route, Switch } from "react-router-dom";
+import BrowserRouter from 'react-router-dom/BrowserRouter'
+import { Route, Switch } from "react-router-dom";
 
 import "assets/scss/material-kit-react.scss?v=1.8.0";
 
 // pages for this product
-import Components from "views/Components/Components.js";
 import LandingPage from "views/LandingPage/LandingPage.js";
-import ProfilePage from "views/ProfilePage/ProfilePage.js";
-import LoginPage from "views/LoginPage/LoginPage.js";
+import StatisticsPage from "views/StatisticsPage/StatisticsPage.js";
+import HowToStake from "views/HowToGuide/HowTo.js";
+import AboutPage from "views/About/About.js";
+
+
 
 
 const reload = () => window.location.reload();
 
 
+
 var hist = createBrowserHistory();
 
 ReactDOM.render(
-  <Router history={hist}>
+	
+  <BrowserRouter basename="/" history={hist}>
+  
     <Switch>
-    <Route path="/ThePassiveTrust.json" onEnter={reload} />
-      <Route path="/profile" component={ProfilePage} />
-      <Route path="/login-page" component={LoginPage} />
+      <Route path="/ThePassiveTrust.json" onEnter={reload} />
+      <Route path="/statistics" component={StatisticsPage} />
+      <Route path="/how-to-stake" component={HowToStake} />
+      <Route path="/about" component={AboutPage} />
       <Route exact path="/" component={LandingPage} />
     </Switch>
-  </Router>,
+     
+  </BrowserRouter>
+ ,
+
   document.getElementById("root")
 );

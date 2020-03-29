@@ -9,17 +9,48 @@ gulp.task("licenses", async function() {
       gap.prependText(`/*!
 
 =========================================================
-* Now UI Kit PRO React - v1.0.0
+* The Passive Trust - Staking option for The Open Application Network - v1.0.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/now-ui-kit-pro-react
-* Copyright 2019 Creative Tim (http://www.creative-tim.com)
+* OAN Website: https://theoan.com/
+* Copyright 2019 The Passive Trust (http://www.stakeaion.com)
 
-* Coded by Creative Tim
+                                      
+                                                               
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                    
+ AA                                  AA                    
+ AA                                  AA                    
+ AA                                  AA                    
+ AA                                  AA                    
+ AA                                  AA                  
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                   
+ AA                                  AA                   
+ AA                                  AA                    
+ @@                            AAAAAAAAAAAAAAA                
+ AA                        AAAAAAA           AAAAA          
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                AAA       
+ @,                     AAAA                      AAA.      
+ @*                   AAAA                          AA.     
+ @/                  AAAA           @@@@@            AA.   
+ @#                 AAA            %@@@@@*            AA.  
+ AAAAAAAAAAAAAAAAAAAA             ,@@@*@@@             AA.  
+.AA                AAA            @@@( &@@&            AAA 
+ AA                AAA           &@@@   @@@*           AAA 
+ AA                AAA          ,@@@     @@@,          AAA 
+ AA                 AAA        .@@@  *%.  @@@          AA  
+ AAAAAAAAAAAAAAAAAAAAAA        @@@# ,@@@, @@@%        AA.  
+ AA                  AAA                             AA.   
+ AA                   AAA                          AAA    
+ AA                     AAA                      AAA     
+ AA                       AAA                  AAAA       
+ AA                  ..,   AAAAAAAAAAAAAAAAAAAAAA          
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA       
+ 
 
 =========================================================
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
 
 */`)
     )
@@ -32,17 +63,49 @@ gulp.task("licenses", async function() {
       gap.prependText(`<!--
 
 =========================================================
-* Now UI Kit PRO React - v1.0.0
+* The Passive Trust - Staking option for The Open Application Network - v1.0.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/now-ui-kit-pro-react
-* Copyright 2019 Creative Tim (http://www.creative-tim.com)
+* OAN Website: https://theoan.com/
+* Copyright 2019 The Passive Trust (http://www.stakeaion.com)
 
-* Coded by Creative Tim
+                                      
+                                                               
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                    
+ AA                                  AA                    
+ AA                                  AA                    
+ AA                                  AA                    
+ AA                                  AA                    
+ AA                                  AA                  
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                   
+ AA                                  AA                   
+ AA                                  AA                    
+ @@                            AAAAAAAAAAAAAAA                
+ AA                        AAAAAAA           AAAAA          
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                AAA       
+ @,                     AAAA                      AAA.      
+ @*                   AAAA                          AA.     
+ @/                  AAAA           @@@@@            AA.   
+ @#                 AAA            %@@@@@*            AA.  
+ AAAAAAAAAAAAAAAAAAAA             ,@@@*@@@             AA.  
+.AA                AAA            @@@( &@@&            AAA 
+ AA                AAA           &@@@   @@@*           AAA 
+ AA                AAA          ,@@@     @@@,          AAA 
+ AA                 AAA        .@@@  *%.  @@@          AA  
+ AAAAAAAAAAAAAAAAAAAAAA        @@@# ,@@@, @@@%        AA.  
+ AA                  AAA                             AA.   
+ AA                   AAA                          AAA    
+ AA                     AAA                      AAA     
+ AA                       AAA                  AAAA       
+ AA                  ..,   AAAAAAAAAAAAAAAAAAAAAA          
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    
 
 =========================================================
+                                      
+
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
 
 -->`)
     )
@@ -54,18 +117,53 @@ gulp.task("licenses", async function() {
     .pipe(
       gap.prependText(`/*!
 
-=========================================================
-* Now UI Kit PRO React - v1.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/now-ui-kit-pro-react
-* Copyright 2019 Creative Tim (http://www.creative-tim.com)
-
-* Coded by Creative Tim
 
 =========================================================
+* The Passive Trust - Staking option for The Open Application Network - v1.0.0
+=========================================================
+
+* OAN Website: https://theoan.com/
+* Copyright 2019 The Passive Trust (http://www.stakeaion.com)
+
+                                                               
+                                      
+                                                               
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                    
+ AA                                  AA                    
+ AA                                  AA                    
+ AA                                  AA                    
+ AA                                  AA                    
+ AA                                  AA                  
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                   
+ AA                                  AA                   
+ AA                                  AA                    
+ @@                            AAAAAAAAAAAAAAA                
+ AA                        AAAAAAA           AAAAA          
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                AAA       
+ @,                     AAAA                      AAA.      
+ @*                   AAAA                          AA.     
+ @/                  AAAA           @@@@@            AA.   
+ @#                 AAA            %@@@@@*            AA.  
+ AAAAAAAAAAAAAAAAAAAA             ,@@@*@@@             AA.  
+.AA                AAA            @@@( &@@&            AAA 
+ AA                AAA           &@@@   @@@*           AAA 
+ AA                AAA          ,@@@     @@@,          AAA 
+ AA                 AAA        .@@@  *%.  @@@          AA  
+ AAAAAAAAAAAAAAAAAAAAAA        @@@# ,@@@, @@@%        AA.  
+ AA                  AAA                             AA.   
+ AA                   AAA                          AAA    
+ AA                     AAA                      AAA     
+ AA                       AAA                  AAAA       
+ AA                  ..,   AAAAAAAAAAAAAAAAAAAAAA          
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA         
+ 
+
+=========================================================
+                                      
+
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
 
 */`)
     )

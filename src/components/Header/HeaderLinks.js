@@ -72,8 +72,59 @@ export default function HeaderLinks(props) {
   const classes = useStyles();
   return (
      <List className={classes.list}>
+          <ListItem className={classes.listItem}>
+        <Tooltip
+          id="about"
+          title="Find out more"
+          placement={window.innerWidth > 959 ? "top" : "left"}
+          classes={{ tooltip: classes.tooltip }}
+        >
+          <Button
+            href="/about"
+            color="transparent"
+            className={classes.navLink}
+          >
+            ABOUT
+          </Button>
+        </Tooltip>
+      </ListItem>
 
+      <ListItem className={classes.listItem}>
+        <Tooltip
+          id="Networks"
+          title="Networks"
+          placement={window.innerWidth > 959 ? "top" : "left"}
+          classes={{ tooltip: classes.tooltip }}
+        >
+          <Button
+            href="/how-to-stake"
+            color="transparent"
+            className={classes.navLink}
+          >
+            NETWORKS
+          </Button>
+        </Tooltip>
+      </ListItem>
+            <ListItem className={classes.listItem}>
+        <Tooltip
+          id="stake"
+          title="Working towards a common goal"
+          placement={window.innerWidth > 959 ? "top" : "left"}
+          classes={{ tooltip: classes.tooltip }}
+        >
+          <Button
+            href="/statistics"
+            color="transparent"
+            className={classes.navLink}
+          >
+            PARTNERS
+          </Button>
+        </Tooltip>
+      </ListItem>
   
+
+
+
       <ListItem className={classes.listItem}>
         {/*<Tooltip title="Delete">
           <IconButton aria-label="Delete">
@@ -87,7 +138,7 @@ export default function HeaderLinks(props) {
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
-            href="https://twitter.com/CreativeTim?ref=creativetim"
+            href="https://twitter.com/passivetrust"
             target="_blank"
             color="transparent"
             className={classes.navLink}
@@ -96,6 +147,8 @@ export default function HeaderLinks(props) {
           </Button>
         </Tooltip>
       </ListItem>
+
+
 
     </List>
   );
