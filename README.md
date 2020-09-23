@@ -20,6 +20,9 @@
 * [Coda](#Coda)
 
 
+
+
+
 ## [The OAN](https://theoan.com/)
 
 The OAN is a public infrastructure that creates a new design space for Open Applications. Open Apps are programs that put users back in control and are universally accessible across online platforms. Later this year, The OAN will be launching its flagship Open App, Moves – a mobile app designed to support the ongoing progress and social mobility of gig workers.
@@ -27,6 +30,8 @@ The OAN is a public infrastructure that creates a new design space for Open Appl
 ### [Aion](https://aion.theoan.com/) 
 
 The OAN runs on Aion. As the native digital asset of The Open Application Network, Aion is used to secure and access the network.
+
+
 
 
 
@@ -45,14 +50,23 @@ Our mission is to build a financial system that creates the conditions for prosp
 The Celo Foundation is a non-profit organization based in the US that supports the growth and development of the open-source Celo Platform. Guided by the Celo community tenets, the Foundation contributes to education, technical research, environmental health, community engagement, and ecosystem outreach—activities that support and encourage an inclusive financial system that creates the conditions for prosperity for everyone.
 
 
+
+
+
 ## [NEAR Protocol](https://near.org/)
 
 NEAR is a decentralized application platform that is secure enough to manage high value assets like money or identity and performant enough to make them useful for everyday people, putting the power of the Open Web in their hands..
 
 
+
+
+
 ## [Witnet](https://witnet.io/)
 
 Witnet is a decentralized oracle network that connects smart contracts to the outer world. It aims to allow any piece of software to retrieve the contents published at any web address with complete and verifiable proof of its integrity and withoutblindly trusting any third party.
+
+
+
 
 ## [Coda](https://codaprotocol.com/)
 
