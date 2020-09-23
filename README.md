@@ -40,7 +40,7 @@ Our mission is to build a financial system that creates the conditions for prosp
 
 ### Celo Foundation
 
-** Believes in a future where everyone can prosper **
+**Believes in a future where everyone can prosper**
 
 The Celo Foundation is a non-profit organization based in the US that supports the growth and development of the open-source Celo Platform. Guided by the Celo community tenets, the Foundation contributes to education, technical research, environmental health, community engagement, and ecosystem outreach—activities that support and encourage an inclusive financial system that creates the conditions for prosperity for everyone.
 
@@ -56,6 +56,6 @@ Witnet is a decentralized oracle network that connects smart contracts to the ou
 
 ## [Coda](https://codaprotocol.com/)
 
-** A cryptocurrency with a tiny portable blockchain. **
+**A cryptocurrency with a tiny portable blockchain.**
 
 Coda swaps the traditional blockchain for a tiny cryptographic proof, enabling a cryptocurrency as accessible as any other app or website. This makes it dramatically easier to develop user friendly crypto apps that run natively in the browser, and enables more inclusive, sustainable consensus.
