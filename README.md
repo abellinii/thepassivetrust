@@ -4,7 +4,7 @@
 
 
 
-![The Passive Trust Image](https://ibb.co/HDKrCH9)
+[![The Passive Trust Image](https://ibb.co/HDKrCH9)]
 
 **[The Passive Trust](https://thepassivetrust.com)** is a blockchain infrastructure company built with the communities of the networks it serves in mind. Built to fill the need for independent secure validators for blockchain protocols with the transition from POW based systems to the more resource efficient POS systems that exploded in 2019.
 
