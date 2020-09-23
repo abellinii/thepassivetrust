@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -17,14 +17,33 @@ const useStyles = makeStyles(styles);
 
 export default function ProductSection() {
   const classes = useStyles();
+
+
+  const [isDesktop, setDesktop] = useState(window.innerWidth > 700);
+
+  const updateMedia = () => {
+    setDesktop(window.innerWidth > 700);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", updateMedia);
+    return () => window.removeEventListener("resize", updateMedia);
+  });
+
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Providing solutions to enable the collective goal of worldwide prosperity</h2>
+          
+
+          {isDesktop ? 
+              <h2 className={classes.title}>Providing solutions to enable the collective goal of worldwide prosperity</h2>
+              :
+              <h3 className={classes.title}>Providing solutions to enable the collective goal of worldwide prosperity</h3>
+              }
           <h5 className={classes.description}>
           Running and taking care of the infrastructure needed to create a fair and decentralized future takes time, commitment and hard work. We provide an efficient, low-cost solution for others who don't have the time but still want to contribute. 
-          We have a range of expertise to help keep blockchains decentralized and utilize cloud computing to help with lightweight, efficient, secure infrastructure.
+          We have a range of expertise to help keep blockchains decentralized and secure. We can help with lightweight, efficient, secure infrastructure.
           
           </h5>
         </GridItem>
@@ -34,7 +53,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Talk to us"
-              description="We are always open to hear from others with any questions, needs or opinions "
+              description="Contact us with any questions, needs or opinions "
               icon={Chat}
               iconColor="info"
               vertical
@@ -42,8 +61,8 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Community members"
-              description="Work with us to provide unique solutions"
+              title="Solutions"
+              description="Work with us"
               icon={VerifiedUser}
               iconColor="success"
               vertical

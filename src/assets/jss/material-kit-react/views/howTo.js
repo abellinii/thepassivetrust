@@ -51,11 +51,21 @@ const profilePageStyle = {
 
 
   },
-  AiomLogo:{
+  AionLogo:{
     position:"absolute",
-    paddingTop:"10%",
+    top:"-5%", 
+    left:"40%",
+    width:"20%",
+    zIndex:"3",
+   
+
+
+  },
+  AionLogoM:{
+    position:"absolute",
+    top:"-8%", 
     left:"33%",
-    width:"33%",
+    width:"35%",
     zIndex:"3",
    
 
@@ -88,6 +98,7 @@ const profilePageStyle = {
   imageVal3:{
   
     position:"absolute",
+    marginTop:"40%",
     bottom:"0",
     left:"66%",
     zIndex:"3",
@@ -134,7 +145,7 @@ item: {
     overflow:"auto",
     backgroundColor:"rgb(39,45,48)",
     height:"max-content",
-    minHeight:"60vh",
+    minHeight:"100vh",
     width:"100%",
     position:"relative",
     marginTop:"10%",
@@ -144,11 +155,33 @@ item: {
   placeTwo:{
     overflow:"auto",
     background: "linear-gradient(90deg, rgba(245,65,25,1) 0%, rgba(245,65,25,1) 10%, rgba(254,83,2,1) 10%, rgba(255,85,0,1) 10%, rgba(255,120,0,1) 10%, rgba(255,120,0,1) 20%, rgba(255,127,0,1) 20%, rgba(255,149,0,1) 30%, rgba(255,155,0,1) 30%, rgba(255,159,0,1) 40%, rgba(255,185,0,1) 40%, rgba(255,185,0,1) 100%)",
-    minHeight:"60vh",
+    minHeight:"100vh",
     height:"max-content",
     width:"100%",
     position:"relative",
     marginBottom:"10%",
+    zIndex:"2"
+  },
+
+  placeOneM:{
+    overflow:"auto",
+    backgroundColor:"rgb(39,45,48)",
+    height:"1vh",
+    minHeight:"170vh",
+    width:"100%",
+    position:"relative",
+    marginTop:"1%",
+    zIndex:"2"
+  },
+
+  placeTwoM:{
+    overflow:"auto",
+    background: "linear-gradient(90deg, rgba(245,65,25,1) 0%, rgba(245,65,25,1) 10%, rgba(254,83,2,1) 10%, rgba(255,85,0,1) 10%, rgba(255,120,0,1) 10%, rgba(255,120,0,1) 20%, rgba(255,127,0,1) 20%, rgba(255,149,0,1) 30%, rgba(255,155,0,1) 30%, rgba(255,159,0,1) 40%, rgba(255,185,0,1) 40%, rgba(255,185,0,1) 100%)",
+    minHeight:"200vh",
+    height:"120vh",
+    width:"100%",
+    position:"relative",
+    marginBottom:"1%",
     zIndex:"2"
   },
   BodyTextAion:{
@@ -156,7 +189,7 @@ item: {
     padding:"3%",
     width:"80%",
     position:"absolute",
-    top:"20%",
+    top:"15%",
     left:"10%",
     
     zIndex:"4"
@@ -166,18 +199,38 @@ item: {
     width:"80%",
    paddingBottom:"15%",
     position:"absolute",
-    top:"20%",
+    top:"15%",
+    left:"10%",
+    zIndex:"4"
+  },
+
+  BodyTextAionM:{
+    fontSize:"5em",
+    padding:"3%",
+    width:"80%",
+    position:"absolute",
+    top:"10%",
+    left:"10%",
+    
+    zIndex:"4"
+  },
+  BodyTextCeloM:{
+    color:"white",
+    width:"80%",
+   paddingBottom:"20%",
+    position:"absolute",
+    top:"10%",
     left:"10%",
     zIndex:"4"
   },
   image:{
-    margin:"10%",
-    height:"12%",
-    width:"33%",
-    position:"absolute",
-    top:"10%",
-    left:"40%",
-    zIndex:"3",
+    // margin:"10%",
+    // height:"12%",
+    // width:"33%",
+    // position:"absolute",
+    // top:"5%",
+    // left:"40%",
+    // zIndex:"3",
     
   },
 

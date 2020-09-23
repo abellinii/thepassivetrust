@@ -1,10 +1,10 @@
 {
   "name": "material-kit-react",
   "version": "1.8.0",
-  "description": "Material Kit React. Coded by Creative Tim",
+  "description": "The passive trust",
   "private": true,
   "main": "dist/index.js",
-  "homepage": "https://www.stakeaion.com",
+  "homepage": "https://www.thepassivetrust.com",
   "dependencies": {
     "@material-ui/core": "4.3.2",
     "@material-ui/icons": "4.2.1",

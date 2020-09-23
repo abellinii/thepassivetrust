@@ -30,8 +30,8 @@ ReactDOM.render(
   
     <Switch>
       <Route path="/ThePassiveTrust.json" onEnter={reload} />
-      <Route path="/statistics" component={StatisticsPage} />
-      <Route path="/how-to-stake" component={HowToStake} />
+      <Route path="/partners" component={StatisticsPage} />
+      <Route path="/networks" component={HowToStake} />
       <Route path="/about" component={AboutPage} />
       <Route exact path="/" component={LandingPage} />
     </Switch>

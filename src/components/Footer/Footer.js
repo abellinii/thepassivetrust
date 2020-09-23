@@ -33,7 +33,7 @@ export default function Footer(props) {
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="http://www.stakeaion.com"
+                href="http://www.thepassivetrust.com"
                 className={classes.block}
               >
                 The Passive Trust
@@ -41,7 +41,7 @@ export default function Footer(props) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="http://www.stakeaion.com/about"
+                href="http://www.thepassivetrust.com/about"
                 className={classes.block}
               >
                 About us
@@ -49,7 +49,7 @@ export default function Footer(props) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://medium.com/@thelostlinkblog"
+                href="https://medium.com/@thepassivetrust"
                 className={classes.block}
               >
                 Blog
@@ -61,7 +61,7 @@ export default function Footer(props) {
           &copy; {1900 + new Date().getYear()} , made with{" "}
           <Favorite className={classes.icon} /> by{" "}
           <a
-            href="https://www.stakeaion.com"
+            href="https://www.thepassivetrust.com"
             className={aClasses}
             target="_blank"
           >

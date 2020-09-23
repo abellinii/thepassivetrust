@@ -92,12 +92,12 @@ export default function HeaderLinks(props) {
       <ListItem className={classes.listItem}>
         <Tooltip
           id="Networks"
-          title="Networks"
+          title="Networks we support"
           placement={window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
-            href="/how-to-stake"
+            href="/networks"
             color="transparent"
             className={classes.navLink}
           >
@@ -105,7 +105,7 @@ export default function HeaderLinks(props) {
           </Button>
         </Tooltip>
       </ListItem>
-            <ListItem className={classes.listItem}>
+            {/* <ListItem className={classes.listItem}>
         <Tooltip
           id="stake"
           title="Working towards a common goal"
@@ -113,14 +113,14 @@ export default function HeaderLinks(props) {
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
-            href="/statistics"
+            href="/partners"
             color="transparent"
             className={classes.navLink}
           >
             PARTNERS
           </Button>
         </Tooltip>
-      </ListItem>
+      </ListItem> */}
   
 
 
@@ -138,7 +138,7 @@ export default function HeaderLinks(props) {
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
-            href="https://twitter.com/passivetrust"
+            href="https://twitter.com/thepassivetrust"
             target="_blank"
             color="transparent"
             className={classes.navLink}

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // @material-ui/core components
@@ -27,6 +27,21 @@ const useStyles = makeStyles(styles);
 export default function LandingPage(props) {
   const classes = useStyles();
   const { ...rest } = props;
+
+
+
+  const [isDesktop, setDesktop] = useState(window.innerWidth > 700);
+
+  const updateMedia = () => {
+    setDesktop(window.innerWidth > 700);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", updateMedia);
+    return () => window.removeEventListener("resize", updateMedia);
+  });
+
+
   return (
     <div>
       <Header
@@ -47,8 +62,11 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={10} sm={10} md={6}>
+              {isDesktop ? 
               <h1 className={classes.title}>Infrastructure services for a free and open future</h1>
-           
+              :
+              <h2 className={classes.title}>Infrastructure services for a free and open future</h2>
+              }
             </GridItem>
           </GridContainer>
         </div>

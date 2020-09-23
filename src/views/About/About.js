@@ -75,7 +75,7 @@ export default function AboutPage(props) {
               <br/>
 
                <h4>
-              Since our humble beginnings, we have been working on creating other solutions and building our base of knowledge on the needs to help bring the future we want. We are not alone in our mission and collaboration is key. This is why we are helping to provide other services to networks that resonate our values. The journey will be a long, hard and bumpy road but with all journeys it will lead to an exciting and fulfilling destination we could have never imagined whislt taking the first step. 
+              Since our humble beginnings, we have been working on creating other solutions and building our base of knowledge on the needs to help bring the future we want. We are not alone in our mission and collaboration is key. This is why we are helping to provide other services to networks that resonate our values. Like all endeavors that break the norm, it will be a long path and will lead to a destination we could have never imagined whilst taking the first step. 
                
 
               </h4>
