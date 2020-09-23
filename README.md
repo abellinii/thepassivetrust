@@ -13,9 +13,9 @@
 
 ## Networks
 
-* [The OAN](#The OAN)
-* [Celo](#Celo Protocol)
-* [Near](#NEAR Protocol)
+* [The OAN](#The-OAN)
+* [Celo](#Celo-Protocol)
+* [Near](#NEAR-Protocol)
 * [Witnet](#Witnet)
 * [Coda](#Coda)
 
