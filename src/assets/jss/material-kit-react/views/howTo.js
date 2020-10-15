@@ -1,4 +1,6 @@
 import { container, title } from "assets/jss/material-kit-react.js";
+import Background from "assets/img/mina_background.png"
+import NearBackground from "assets/img/near_group.png"
 
 import imagesStyle from "assets/jss/material-kit-react/imagesStyles.js";
 
@@ -141,7 +143,7 @@ item: {
     minHeight: "32px",
     textDecoration: "none"
   },
-  placeOne:{
+  CeloBody:{
     overflow:"auto",
     backgroundColor:"rgb(39,45,48)",
     height:"max-content",
@@ -152,18 +154,7 @@ item: {
     zIndex:"2"
   },
 
-  placeTwo:{
-    overflow:"auto",
-    background: "linear-gradient(90deg, rgba(245,65,25,1) 0%, rgba(245,65,25,1) 10%, rgba(254,83,2,1) 10%, rgba(255,85,0,1) 10%, rgba(255,120,0,1) 10%, rgba(255,120,0,1) 20%, rgba(255,127,0,1) 20%, rgba(255,149,0,1) 30%, rgba(255,155,0,1) 30%, rgba(255,159,0,1) 40%, rgba(255,185,0,1) 40%, rgba(255,185,0,1) 100%)",
-    minHeight:"100vh",
-    height:"max-content",
-    width:"100%",
-    position:"relative",
-    marginBottom:"10%",
-    zIndex:"2"
-  },
-
-  placeOneM:{
+  CeloBodyM:{
     overflow:"auto",
     backgroundColor:"rgb(39,45,48)",
     height:"1vh",
@@ -174,9 +165,8 @@ item: {
     zIndex:"2"
   },
 
-  placeTwoM:{
+  NearBodyM:{
     overflow:"auto",
-    background: "linear-gradient(90deg, rgba(245,65,25,1) 0%, rgba(245,65,25,1) 10%, rgba(254,83,2,1) 10%, rgba(255,85,0,1) 10%, rgba(255,120,0,1) 10%, rgba(255,120,0,1) 20%, rgba(255,127,0,1) 20%, rgba(255,149,0,1) 30%, rgba(255,155,0,1) 30%, rgba(255,159,0,1) 40%, rgba(255,185,0,1) 40%, rgba(255,185,0,1) 100%)",
     minHeight:"200vh",
     height:"120vh",
     width:"100%",
@@ -184,6 +174,48 @@ item: {
     marginBottom:"1%",
     zIndex:"2"
   },
+  NearBody:{
+    overflow:"auto",
+    minHeight:"100vh",
+    height:"max-content",
+    width:"100%",
+    position:"relative",
+    marginBottom:"10%",
+    zIndex:"2"
+  },
+  NearImage:{
+    opacity:"0.2",
+    backgroundImage: "url(" + NearBackground + ")",
+    minHeight:"100vh",
+    height:"max-content",
+    width:"100%",
+  },
+  NearImageM:{
+    opacity:"0.2",
+    backgroundImage: "url(" + NearBackground + ")",
+    position:"absolute",
+  },
+  MinaBodyM:{
+    overflow:"auto",
+    backgroundImage: "url(" + Background + ")",
+    minHeight:"200vh",
+    height:"120vh",
+    width:"100%",
+    position:"relative",
+    zIndex:"2"
+  },
+
+  MinaBody:{
+    overflow:"auto",
+    backgroundImage: "url(" + Background + ")",
+    minHeight:"100vh",
+    height:"max-content",
+    width:"100%",
+    position:"relative",
+    marginBottom:"1%",
+    zIndex:"2"
+  },
+
   BodyTextAion:{
     fontSize:"5em",
     padding:"3%",

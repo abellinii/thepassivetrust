@@ -67,7 +67,7 @@ export default function AboutPage(props) {
             <div className={classes.description}>
               <h4>
                                      The Passive Trust was launched on the 19th of November 2019. After being involved in the blockchain industry since mid 2017 we decided to run a staking pool for <a href="https://theoan.com/">
-                 The Open Application Network</a>. Having been on the Aion User Advisory Board since inception it is product that resonates with our mission. To create a prosperous and fair future for all. The pool was initially created with 1000 Aion that was given as a gift by Matt Spoke and the Aion Foundation for the dedication towards the community before the transition and launch of The Open Application Network.
+                 The Open Application Network</a>. Having been on the Aion User Advisory Board since inception it is product that resonates with our mission. To create a prosperous and fair future for all. The pool was initially created with 1000 Aion that was given as a gift by Matt Spoke and the Aion Foundation for the dedication towards the community before the transition and launch of The Open Application Network. Although we no longer support the project, we are happy the foundations it gave us to grow as an infrastructure provider.
 
 
               </h4>
