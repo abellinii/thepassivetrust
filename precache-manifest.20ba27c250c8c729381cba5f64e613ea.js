@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b1425d459e176b3a1b392a3abcbf11f9",
+    "revision": "48cc855b6b8f6007bd1590ba00f3048c",
     "url": "/thepassivetrust/index.html"
   },
   {
